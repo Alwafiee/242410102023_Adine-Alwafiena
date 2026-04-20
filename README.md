@@ -34,25 +34,25 @@ psql -U postgres -d paa_tm -f database.sql
 Atau bisa juga import manual melalui pgAdmin.
 
 **Daftar Endpoint API**
-•	Authors
+Authors
 -	GET /api/Authors → Mengambil semua data penulis
 -	POST /api/Authors → Menambahkan penulis baru
 -	GET /api/Authors/{id} → Mengambil detail penulis
 -	PUT /api/Authors/{id} → Mengupdate data penulis
 -	DELETE /api/Authors/{id} → Menghapus penulis
-•	Books
+Books
 -	GET /api/Books → Mengambil semua data buku
 -	POST /api/Books → Menambahkan buku
 -	GET /api/Books/{id} → Detail buku
 -	PUT /api/Books/{id} → Update buku
 -	DELETE /api/Books/{id} → Hapus buku
-•	Members
+Members
 -	GET /api/Members → Mengambil semua anggota
 -	POST /api/Members → Menambahkan anggota
 -	GET /api/Members/{id} → Detail anggota
 -	PUT /api/Members/{id} → Update anggota
 -	DELETE /api/Members/{id} → Hapus anggota
-•	Loans
+Loans
 -	GET /api/Loans → Mengambil semua data peminjaman
 -	POST /api/Loans → Menambahkan peminjaman
 -	GET /api/Loans/{id} → Detail peminjaman
