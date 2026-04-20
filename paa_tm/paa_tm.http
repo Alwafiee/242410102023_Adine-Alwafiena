@@ -1,0 +1,6 @@
+@paa_tm_HostAddress = http://localhost:5277
+
+GET {{paa_tm_HostAddress}}
+Accept: application/json
+
+###
