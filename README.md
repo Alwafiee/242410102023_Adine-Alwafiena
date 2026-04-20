@@ -69,6 +69,7 @@ Loans
 -	GET /api/Loans/stats → Melihat statistik peminjaman
 
 **Contoh Request (POST Book)**
+
 {
 "authorId": 1,
 "title": "Clean Code",
@@ -79,6 +80,7 @@ Loans
 }
 
 **Contoh Response**
+
 {
 "success": true,
 "message": "Buku berhasil ditambahkan",
@@ -89,14 +91,17 @@ Loans
 }
 
 **Skenario Error**
+
 400 → Validasi gagal
 404 → Data tidak ditemukan
 409 → Data duplikat
 500 → Server error
 
 **Alur Sistem**
+
 Client → Controller → SqlDbHelper → Database → Controller → Response
 
 **Link Video Presentasi**
+
 Silakan tambahkan link video presentasi di sini, contoh:
 https://youtu.be/KrltxZf99do
