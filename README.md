@@ -15,8 +15,7 @@ Untuk testing API digunakan Swagger (OpenAPI).
 
 **Instalasi dan Menjalankan Project**
 1.	Clone repository dari GitHub
-git clone https://github.com/username/library-api.git
-cd library-api 
+git clone https://github.com/Alwafiee/242410102023_Adine-Alwafiena.git 
 2.	Setup database
 Pastikan PostgreSQL sudah terinstall, lalu buat database dengan nama:
 CREATE DATABASE paa_tm; 
@@ -28,7 +27,6 @@ Buka file appsettings.json lalu isi:
 4.	Jalankan project
 dotnet run 
 5.	Buka Swagger di browser
-https://localhost:7115/swagger 
 
 **Cara Import Database**
 Gunakan file SQL (misalnya database.sql), lalu jalankan:
