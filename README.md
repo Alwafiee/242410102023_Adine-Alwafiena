@@ -22,7 +22,7 @@ CREATE DATABASE paa_tm;
 3.	Konfigurasi connection string
 Buka file appsettings.json lalu isi:
 "ConnectionStrings": {
-"WebApiDatabase": "Host=localhost;Port=5432;Database=paa_tm;Username=postgres;Password=1234"
+"WebApiDatabase": "Host=localhost;Port=5432;Database=paa-tm;Username=postgres;Password=1234"
 } 
 4.	Jalankan project
 dotnet run 
